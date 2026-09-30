@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=JetBrains+Mono:wght@100..900&family=Space+Grotesk:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"primary-container":"#00f2fe","tertiary-fixed":"#ffddb8","primary":"#e0fdff","secondary-fixed":"#6ffbbe","on-secondary-container":"#00311f","surface-tint":"#00dce6","secondary":"#4edea3","secondary-container":"#00a572","on-tertiary-fixed-variant":"#653e00","background":"#10131c","primary-fixed":"#6ff6ff","error-container":"#93000a","on-primary-fixed-variant":"#004f53","on-background":"#e0e2ee","on-error-container":"#ffdad6","error":"#ffb4ab","surface-dim":"#10131c","surface-bright":"#363942","on-secondary":"#003824","surface-container-high":"#262a33","tertiary":"#fff5ee","inverse-surface":"#e0e2ee","surface-container":"#1c1f28","inverse-on-surface":"#2d3039","outline":"#849495","surface-container-highest":"#31353e","surface-variant":"#31353e","on-secondary-fixed":"#002113","surface-container-low":"#181b24","on-secondary-fixed-variant":"#005236","on-surface-variant":"#b9cacb","on-tertiary-container":"#875400","on-tertiary":"#472a00","on-error":"#690005","secondary-fixed-dim":"#4edea3","on-primary":"#00373a","surface-container-lowest":"#0b0e16","tertiary-fixed-dim":"#ffb95f","outline-variant":"#3a494b","tertiary-container":"#ffd3a1","on-surface":"#e0e2ee","inverse-primary":"#00696f","primary-fixed-dim":"#00dce6","on-primary-container":"#006a70","surface":"#10131c","on-primary-fixed":"#002022","on-tertiary-fixed":"#2a1700"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xl":"2rem","gutter":"1rem","gutter-desktop":"1.5rem","space-lg":"1.25rem","margin-tablet":"1.5rem","space-xs":"0.25rem","space-md":"0.75rem","margin-desktop":"2rem","space-sm":"0.5rem","margin":"1rem"},"fontFamily":{"headline-md":["Space Grotesk"],"label-md":["JetBrains Mono"],"body-md":["Geist"],"headline-xl":["Space Grotesk"],"label-lg":["JetBrains Mono"],"headline-xl-mobile":["Space Grotesk"],"headline-lg":["Space Grotesk"],"body-sm":["Geist"],"body-lg":["Geist"],"label-sm":["JetBrains Mono"]},"fontSize":{"headline-md":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"-0.01em","fontWeight":"600"}],"label-md":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.06em","fontWeight":"500"}],"body-md":["0.875rem",{"lineHeight":"1.375rem","fontWeight":"400"}],"headline-xl":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.03em","fontWeight":"700"}],"label-lg":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.05em","fontWeight":"600"}],"headline-xl-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg":["1.5rem",{"lineHeight":"2rem","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["0.75rem",{"lineHeight":"1.125rem","fontWeight":"400"}],"body-lg":["1rem",{"lineHeight":"1.5rem","fontWeight":"400"}],"label-sm":["0.625rem",{"lineHeight":"0.875rem","letterSpacing":"0.08em","fontWeight":"500"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 h-16 z-50 bg-surface-container-lowest/90 backdrop-blur-md"><div class="h-16 w-full px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md min-w-fit"><div class="flex items-center gap-space-sm"><div class="relative flex items-center justify-center p-space-xs bg-surface-container-high rounded"><img alt="MrKolapie Emblem" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VyiptmbXcpy3R3bPLrOwdjtfwXjjnxNX5N99_IR1GOAiakkokPIM9BSbd82_36mnmBf904U9K6HditsO7hTuXy8bNzoAZI8EJR0-MG5CjPwyvqsSzYT7oRMrwBFPmFZ5rRxl5kyEB0Uf4ZKJdI3v50FBSFDBYyL8EE3EOmRvyBlMXlqu3MZC_ZNNYoA5YsDRlIK2Gj1ZngkbjpOkLGOQGPJa-mESdhPCd9vgfvIViy_SgprKh6xochIpPiMENInO4QgFb48GP2"/><div class="absolute -top-0.5 -right-0.5 w-2 h-2 rounded-full bg-secondary animate-pulse"></div></div><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md tracking-wider text-primary">MRKOLAPIE</span><span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded bg-surface-container text-primary-fixed-dim uppercase">DEFENSE-INTEL</span></div><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Sovereign Data Guardian</span></div></div></div><nav class="hidden xl:flex items-center gap-space-xs bg-surface-container-lowest p-1 rounded" data-active-classes="bg-surface-container-high text-primary font-label-md"><a class="font-label-md text-label-md px-space-md py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="govtech-keynote-simulation" href="#">GovTech Keynote Simulation</a><a class="font-label-md text-label-md px-space-md py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="ssa-classified-enclave" href="#">SSA Classified Enclave</a><a aria-current="page" class="px-space-md py-1.5 rounded transition-all bg-surface-container-high text-primary font-label-md" data-path="agsa-parliamentary-audit" href="#">AGSA Parliamentary Audit</a><a class="font-label-md text-label-md px-space-md py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="tactical-dlp-interceptor" href="#">Tactical DLP Interceptor</a><a class="font-label-md text-label-md px-space-md py-1.5 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="sita-architecture" href="#">SITA Architecture</a></nav><div class="flex items-center gap-space-sm"><div class="hidden 2xl:flex items-center gap-space-xs"><div class="px-2 py-1 rounded bg-surface-container-low flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary"></span><span class="font-label-sm text-label-sm text-on-surface">SSA MISS: TOP SECRET</span></div><div class="px-2 py-1 rounded bg-surface-container-low flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span><span class="font-label-sm text-label-sm text-on-surface">SITA 1183 CERTIFIED</span></div><div class="px-2 py-1 rounded bg-surface-container-low flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span><span class="font-label-sm text-label-sm text-on-surface">POPIA SEC 19 ENFORCED</span></div><div class="px-2 py-1 rounded bg-surface-container-low flex items-center gap-1.5"><span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span><span class="font-label-sm text-label-sm text-on-surface">AGSA PARLIAMENT AUDIT</span></div></div><div class="flex items-center gap-space-xs px-2.5 py-1.5 bg-surface-container-high rounded"><div class="relative flex items-center justify-center"><span class="w-2 h-2 rounded-full bg-secondary"></span><span class="absolute w-3.5 h-3.5 rounded-full bg-secondary/30 animate-ping"></span></div><span class="font-label-sm text-label-sm text-secondary uppercase">CONTAINMENT ACTIVE</span></div><div class="flex items-center gap-space-xs pl-space-xs"><button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-on-surface-variant transition-colors" title="Terminal Broadcast"><span class="material-symbols-outlined text-sm">terminal</span></button><button class="w-8 h-8 rounded flex items-center justify-center bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-on-surface-variant transition-colors" title="Sovereign Network"><span class="material-symbols-outlined text-sm">shield</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-primary/30" src="https://lh3.googleusercontent.com/aida/AEtjO1VyiptmbXcpy3R3bPLrOwdjtfwXjjnxNX5N99_IR1GOAiakkokPIM9BSbd82_36mnmBf904U9K6HditsO7hTuXy8bNzoAZI8EJR0-MG5CjPwyvqsSzYT7oRMrwBFPmFZ5rRxl5kyEB0Uf4ZKJdI3v50FBSFDBYyL8EE3EOmRvyBlMXlqu3MZC_ZNNYoA5YsDRlIK2Gj1ZngkbjpOkLGOQGPJa-mESdhPCd9vgfvIViy_SgprKh6xochIpPiMENInO4QgFb48GP2"/></div></div></div></header><aside class="fixed left-0 top-16 bottom-0 w-64 bg-surface-container-lowest/80 backdrop-blur-md z-40 flex flex-col justify-between p-space-md"><div class="space-y-space-md"><div class="px-space-xs py-space-xs"><div class="font-label-sm text-label-sm text-outline uppercase tracking-widest">Sovereign Grid</div><div class="font-headline-md text-headline-md text-primary mt-1">RSA-SOC NODE 01</div></div><div class="h-px w-full bg-surface-container-high"></div><nav class="space-y-space-xs" data-active-classes="bg-surface-container-high text-primary font-label-md"><a class="flex items-center gap-space-sm px-space-sm py-2 rounded text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="govtech-keynote-simulation" href="#"><span class="material-symbols-outlined text-base">co_present</span><span class="font-body-md text-body-md">GovTech Keynote</span></a><a class="flex items-center gap-space-sm px-space-sm py-2 rounded text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="ssa-classified-enclave" href="#"><span class="material-symbols-outlined text-base">lock</span><span class="font-body-md text-body-md">SSA Enclave</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-2 rounded transition-all bg-surface-container-high text-primary font-label-md" data-path="agsa-parliamentary-audit" href="#"><span class="material-symbols-outlined text-base">policy</span><span class="font-body-md text-body-md">Parliamentary Audit</span></a><a class="flex items-center gap-space-sm px-space-sm py-2 rounded text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="tactical-dlp-interceptor" href="#"><span class="material-symbols-outlined text-base">radar</span><span class="font-body-md text-body-md">DLP Interceptor</span></a><a class="flex items-center gap-space-sm px-space-sm py-2 rounded text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="sita-architecture" href="#"><span class="material-symbols-outlined text-base">hub</span><span class="font-body-md text-body-md">SITA Architecture</span></a></nav></div><div class="space-y-space-xs p-space-sm rounded bg-surface-container-low"><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm text-outline">TELEMETRY</span><span class="font-label-sm text-label-sm text-secondary">0.42ms</span></div><div class="flex items-center justify-between"><span class="font-label-sm text-label-sm text-outline">POPIA AUDIT LEDGER</span><span class="font-label-sm text-label-sm text-primary">SYNCED</span></div><div class="h-1 w-full bg-surface-container rounded-full overflow-hidden mt-1"><div class="h-full w-full bg-primary-container"></div></div></div></aside><div class="pl-64"><main class="w-full min-h-screen pt-16 bg-surface px-gutter-desktop py-space-lg"><div class="flex flex-col w-full space-y-space-lg pb-space-xl">
+<!-- Top Sovereign Header Bar: Classification & Key Metrics -->
+<div class="relative bg-surface-container-lowest p-space-lg rounded-lg shadow-xl overflow-hidden">
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-primary-container/5 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-12 -bottom-12 w-64 h-64 rounded-full bg-secondary-container/10 blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="space-y-space-xs max-w-3xl">
+<div class="flex flex-wrap items-center gap-space-xs text-label-sm font-label-sm">
+<span class="px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-semibold uppercase tracking-wider">PARLIAMENTARY ATTESTATION</span>
+<span class="text-outline">/</span>
+<span class="text-secondary font-medium">RSA-AGSA-POPIA-4910</span>
+<span class="text-outline">/</span>
+<span class="text-on-surface-variant">PORTFOLIO COMMITTEE DIGITAL TECHNOLOGIES</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-primary tracking-tight">AGSA Parliamentary Tech Audit & POPIA Statutory Attestation</h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Statutory verification suite under <span class="text-primary font-medium">POPIA Act 4 of 2013 (Sec 19)</span> and <span class="text-secondary font-medium">SITA Standard 1183</span>. Engineered to secure an Unqualified AGSA Audit Opinion while immunizing Departmental Accounting Officers from Section 38 PFMA personal liability sanctions.
+        </p>
+</div>
+<!-- Live Opinion Gauge & Quick Telemetry -->
+<div class="flex flex-row sm:flex-row items-center gap-space-md bg-surface-container-low p-space-md rounded-lg">
+<div class="relative flex items-center justify-center w-24 h-24">
+<!-- SVG Radar Ring -->
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 100 100">
+<circle class="text-surface-container-highest" cx="50" cy="50" fill="transparent" r="40" stroke="currentColor" stroke-width="7"></circle>
+<circle class="text-secondary" cx="50" cy="50" fill="transparent" r="40" stroke="currentColor" stroke-dasharray="251.2" stroke-dashoffset="0" stroke-linecap="round" stroke-width="7"></circle>
+</svg>
+<div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+<span class="font-headline-md text-headline-md text-secondary leading-none">100%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-1">CLEAN</span>
+</div>
+</div>
+<div class="flex flex-col justify-center space-y-1">
+<div class="font-label-sm text-label-sm text-outline uppercase tracking-wider">STATUTORY OPINION</div>
+<div class="font-headline-md text-headline-md text-primary">UNQUALIFIED</div>
+<div class="flex items-center gap-1.5 text-label-sm font-label-sm text-secondary">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary animate-ping"></span>
+            ZERO DEFICIENCIES
+          </div>
+</div>
+</div>
+</div>
+<!-- Quick Status Ticker Ribbon -->
+<div class="mt-space-md pt-space-sm flex flex-wrap items-center justify-between gap-space-sm text-label-sm font-label-sm text-on-surface-variant bg-surface-container/60 p-space-sm rounded">
+<div class="flex items-center gap-2">
+<span class="text-secondary-fixed">STANDARDS CONFORMITY:</span>
+<span class="text-primary font-medium">SITA STD 1183 (REV 4)</span>
+<span class="text-outline">|</span>
+<span class="text-primary font-medium">POPIA SEC 19(1)(b)</span>
+<span class="text-outline">|</span>
+<span class="text-primary font-medium">PFMA SEC 38(1)(a)(i)</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-outline">NEXT PARLIAMENTARY SUBMISSION:</span>
+<span class="text-tertiary font-medium">08:00:00 CAT (PARL. CTN)</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-high text-primary-fixed-dim">IMMUTABLE LOG v4.2</span>
+</div>
+</div>
+</div>
+<!-- 4 Core Pillars Grid (POPIA, SITA 1183, PFMA Sec 38, B-BBEE L1) -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-space-md">
+<!-- Pillar 1: POPIA Act 4 of 2013 -->
+<div class="relative bg-surface-container-low p-space-md rounded-lg shadow-md flex flex-col justify-between group hover:bg-surface-container transition-all">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold uppercase tracking-wider">PILLAR 01</span>
+<span class="material-symbols-outlined text-secondary text-base">verified_user</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mt-2">POPIA Sec 19 Enforced</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Mandatory safeguard verification against unauthorized processing, loss, or data destruction under Section 19. All data subjects cryptographically shielded.
+        </p>
+</div>
+<div class="mt-space-md pt-space-xs space-y-1.5 bg-surface-container-lowest/60 p-2.5 rounded">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Audit Target:</span>
+<span class="text-secondary font-medium">100% UNQUALIFIED</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Exposure Risk:</span>
+<span class="text-secondary-fixed font-semibold">R0.00 ZERO FINES</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Regulator Status:</span>
+<span class="text-primary font-medium">FORM 1 VERIFIED</span>
+</div>
+</div>
+</div>
+<!-- Pillar 2: SITA Act Standard 1183 -->
+<div class="relative bg-surface-container-low p-space-md rounded-lg shadow-md flex flex-col justify-between group hover:bg-surface-container transition-all">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold uppercase tracking-wider">PILLAR 02</span>
+<span class="material-symbols-outlined text-primary-container text-base">cloud_off</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mt-2">SITA Standard 1183</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Zero offshore egress protocol. Sovereign cloud perimeter strictly confines sovereign RSA state communications within domestic ZA data boundaries.
+        </p>
+</div>
+<div class="mt-space-md pt-space-xs space-y-1.5 bg-surface-container-lowest/60 p-2.5 rounded">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Boundary Containment:</span>
+<span class="text-primary font-medium">DOMESTIC ONLY (ZA)</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Foreign Cloud Egress:</span>
+<span class="text-secondary font-semibold">0.0000 kbps (NULL)</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">SITA Tender Code:</span>
+<span class="text-tertiary-fixed font-medium">RFQ 4910 ENF</span>
+</div>
+</div>
+</div>
+<!-- Pillar 3: PFMA Section 38 Defense -->
+<div class="relative bg-surface-container-low p-space-md rounded-lg shadow-md flex flex-col justify-between group hover:bg-surface-container transition-all">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-tertiary-fixed font-label-sm text-label-sm font-bold uppercase tracking-wider">PILLAR 03</span>
+<span class="material-symbols-outlined text-tertiary text-base">gavel</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mt-2">PFMA Sec 38 Shield</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Personal accounting officer liability defense. Neutralizes R10M administrative fines and direct civil liability via immutable cryptographic attestation trails.
+        </p>
+</div>
+<div class="mt-space-md pt-space-xs space-y-1.5 bg-surface-container-lowest/60 p-2.5 rounded">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Accounting Officer:</span>
+<span class="text-primary font-medium">DG / CIO DEFENDED</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Civil Fine Exposure:</span>
+<span class="text-secondary font-semibold">ZERO RISK INDEMNITY</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Fiduciary Trail:</span>
+<span class="text-secondary-fixed font-medium">MERKLE-ANCHORED</span>
+</div>
+</div>
+</div>
+<!-- Pillar 4: B-BBEE Level 1 Sovereign Framework -->
+<div class="relative bg-surface-container-low p-space-md rounded-lg shadow-md flex flex-col justify-between group hover:bg-surface-container transition-all">
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold uppercase tracking-wider">PILLAR 04</span>
+<span class="material-symbols-outlined text-secondary-fixed text-base">military_tech</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mt-2">B-BBEE Level 1 Contributor</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          135% procurement recognition factor integrated under SITA RFQ 4910. Google Cloud South Africa Enterprise Sovereign Partner Framework drawdown compliant.
+        </p>
+</div>
+<div class="mt-space-md pt-space-xs space-y-1.5 bg-surface-container-lowest/60 p-2.5 rounded">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Procurement Factor:</span>
+<span class="text-secondary font-medium">135% SPEND RECOG</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Framework Tendering:</span>
+<span class="text-primary font-medium">SITA TRANSVERSAL</span>
+</div>
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">Partner Tier:</span>
+<span class="text-tertiary-fixed font-medium">GCP SOVEREIGN RSA</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Cryptographic Attestation & Evidence Hub -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md">
+<!-- Left: Live Verification Tool & Merkle Proof Validator (5 Cols) -->
+<div class="lg:col-span-5 flex flex-col space-y-space-md bg-surface-container-low p-space-md rounded-lg shadow-lg">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-sm bg-primary-container"></span>
+<h2 class="font-headline-md text-headline-md text-primary">In-Memory Merkle Verifier</h2>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container-highest text-outline">SEC-19 VALIDATOR</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Audit officers can paste any Parliamentary Session Token or Statutory Attestation Hash below to confirm live root inclusion on the Sovereign AGSA Ledger.
+      </p>
+<div class="space-y-space-xs">
+<label class="font-label-sm text-label-sm text-outline uppercase tracking-wider">PARLIAMENTARY CERTIFICATE HASH</label>
+<div class="relative">
+<input class="w-full bg-surface-container-lowest text-on-surface font-label-sm text-label-sm px-3 py-2 rounded focus:outline-none focus:ring-1 focus:ring-primary-container selection:bg-primary-container selection:text-on-primary-container" id="hashInput" type="text" value="0x7f4e8b91a2cd4ef6109988aa5634bcde101183fe"/>
+<button class="absolute right-2 top-2 px-2 py-0.5 rounded bg-surface-container text-primary font-label-sm text-label-sm hover:bg-surface-container-highest transition-colors" id="btnPasteSample">SAMPLE</button>
+</div>
+</div>
+<div class="flex gap-2">
+<button class="flex-1 bg-primary-container text-on-primary-container font-label-md text-label-md py-2 px-4 rounded font-bold uppercase tracking-wider flex items-center justify-center gap-2 hover:bg-primary hover:text-on-primary transition-all" id="btnVerifyHash">
+<span class="material-symbols-outlined text-base">lock_clock</span>
+          VERIFY AUDIT PROOF
+        </button>
+<button class="bg-surface-container-highest text-on-surface font-label-md text-label-md px-3 py-2 rounded hover:bg-surface-variant transition-colors" id="btnResetHash" title="Reset">
+<span class="material-symbols-outlined text-base">refresh</span>
+</button>
+</div>
+<!-- Live Verification Results Panel -->
+<div class="bg-surface-container-lowest p-space-sm rounded space-y-space-xs transition-all" id="verificationResultBox">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">MERKLE STATE:</span>
+<span class="text-secondary font-semibold" id="merkleStatusText">VALIDATED & ATTESTED</span>
+</div>
+<div class="text-label-sm font-label-sm text-on-surface-variant break-all">
+<span class="text-outline">ROOT HASH:</span> <span class="text-primary font-mono" id="rootHashDisplay">0x992B1...F1083E4</span>
+</div>
+<div class="text-label-sm font-label-sm text-on-surface-variant">
+<span class="text-outline">TIMESTAMP:</span> <span class="text-on-surface" id="timestampDisplay">2025-05-18 10:44:12 SAST</span>
+</div>
+<div class="text-label-sm font-label-sm text-on-surface-variant">
+<span class="text-outline">AGSA AUDITOR ID:</span> <span class="text-secondary font-mono">AGSA-CT-AUD-940</span>
+</div>
+<div class="pt-2">
+<div class="h-1.5 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-secondary w-full transition-all duration-700" id="statutoryProgress"></div>
+</div>
+<div class="flex justify-between text-label-sm font-label-sm text-outline mt-1">
+<span>Cryptographic Confidence</span>
+<span class="text-secondary">99.999% Zero Defect</span>
+</div>
+</div>
+</div>
+<!-- Parliamentary Dossier Action Group -->
+<div class="pt-space-xs space-y-2">
+<div class="font-label-sm text-label-sm text-outline uppercase tracking-wider">ONE-CLICK PARLIAMENTARY DOSSIER</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+<button class="bg-surface-container text-primary hover:bg-surface-container-highest px-3 py-2 rounded text-label-sm font-label-sm font-semibold flex items-center justify-center gap-1.5 transition-all text-left" id="btnDownloadDossier">
+<span class="material-symbols-outlined text-base">download_for_offline</span>
+<span>EXPORT DOSSIER (.PDF)</span>
+</button>
+<button class="bg-secondary-container text-on-secondary-container hover:bg-secondary px-3 py-2 rounded text-label-sm font-label-sm font-bold flex items-center justify-center gap-1.5 transition-all" id="btnSignAttestation">
+<span class="material-symbols-outlined text-base">ink_pen</span>
+<span>SIGN & ATTEST</span>
+</button>
+</div>
+<button class="w-full bg-surface-container-high hover:bg-surface-container-highest text-tertiary-fixed px-3 py-2 rounded text-label-sm font-label-sm font-semibold flex items-center justify-center gap-1.5 transition-all" id="btnNotifyRegulator">
+<span class="material-symbols-outlined text-base text-tertiary-fixed-dim">outgoing_mail</span>
+<span>NOTIFY INFORMATION REGULATOR (FORM 1 COMPLIANT)</span>
+</button>
+</div>
+</div>
+<!-- Right: Statutory Chain-of-Custody Evidence Vault (7 Cols) -->
+<div class="lg:col-span-7 bg-surface-container-low p-space-md rounded-lg shadow-lg flex flex-col justify-between space-y-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-sm bg-secondary"></span>
+<h2 class="font-headline-md text-headline-md text-primary">Statutory Chain-of-Custody Vault</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live tamper-evident cryptographic log for Auditor-General forensic scrutiny.</p>
+</div>
+<div class="flex items-center gap-1">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container-lowest text-secondary">LEDGER SYNCED</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded bg-surface-container-high text-primary">POPIA FORM 1</span>
+</div>
+</div>
+<!-- Chain-of-Custody Table -->
+<div class="overflow-x-auto rounded bg-surface-container-lowest/80">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead class="bg-surface-container-high text-label-sm font-label-sm text-on-surface-variant uppercase">
+<tr>
+<th class="py-2.5 px-3">Subsystem / Proof</th>
+<th class="py-2.5 px-3">Statutory Anchor</th>
+<th class="py-2.5 px-3">Merkle Hash</th>
+<th class="py-2.5 px-3 text-right">Attestation</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container font-label-sm text-label-sm text-on-surface">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container/50 transition-colors">
+<td class="py-2.5 px-3">
+<div class="font-body-md text-body-md text-primary font-medium">SSA Border Intercept</div>
+<div class="text-label-sm text-label-sm text-outline">MISS Top Secret Safe</div>
+</td>
+<td class="py-2.5 px-3">
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-secondary font-medium">SITA 1183</span>
+</td>
+<td class="py-2.5 px-3 font-mono text-outline-variant hover:text-primary transition-colors cursor-pointer" onclick="copyHash('0x4A10...9F21')">
+                0x4A10...9F21 <span class="material-symbols-outlined text-xs align-middle">content_copy</span>
+</td>
+<td class="py-2.5 px-3 text-right">
+<span class="inline-flex items-center gap-1 text-secondary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> UNQUALIFIED
+                </span>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container/50 transition-colors">
+<td class="py-2.5 px-3">
+<div class="font-body-md text-body-md text-primary font-medium">National Identity Vault</div>
+<div class="text-label-sm text-label-sm text-outline">DHA Biometric Masking</div>
+</td>
+<td class="py-2.5 px-3">
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-secondary-fixed font-medium">POPIA SEC 19</span>
+</td>
+<td class="py-2.5 px-3 font-mono text-outline-variant hover:text-primary transition-colors cursor-pointer" onclick="copyHash('0x7F8C...AA34')">
+                0x7F8C...AA34 <span class="material-symbols-outlined text-xs align-middle">content_copy</span>
+</td>
+<td class="py-2.5 px-3 text-right">
+<span class="inline-flex items-center gap-1 text-secondary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> UNQUALIFIED
+                </span>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container/50 transition-colors">
+<td class="py-2.5 px-3">
+<div class="font-body-md text-body-md text-primary font-medium">Parliamentary Hansard Repos</div>
+<div class="text-label-sm text-label-sm text-outline">Legislation Drafting Net</div>
+</td>
+<td class="py-2.5 px-3">
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-tertiary-fixed font-medium">PFMA SEC 38</span>
+</td>
+<td class="py-2.5 px-3 font-mono text-outline-variant hover:text-primary transition-colors cursor-pointer" onclick="copyHash('0xBC01...41E9')">
+                0xBC01...41E9 <span class="material-symbols-outlined text-xs align-middle">content_copy</span>
+</td>
+<td class="py-2.5 px-3 text-right">
+<span class="inline-flex items-center gap-1 text-secondary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> UNQUALIFIED
+                </span>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container/50 transition-colors">
+<td class="py-2.5 px-3">
+<div class="font-body-md text-body-md text-primary font-medium">GCP Sovereign Cloud Node</div>
+<div class="text-label-sm text-label-sm text-outline">RFQ 4910 Transversal Pool</div>
+</td>
+<td class="py-2.5 px-3">
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-primary-container font-medium">B-BBEE L1</span>
+</td>
+<td class="py-2.5 px-3 font-mono text-outline-variant hover:text-primary transition-colors cursor-pointer" onclick="copyHash('0xEE55...8801')">
+                0xEE55...8801 <span class="material-symbols-outlined text-xs align-middle">content_copy</span>
+</td>
+<td class="py-2.5 px-3 text-right">
+<span class="inline-flex items-center gap-1 text-secondary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span> UNQUALIFIED
+                </span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Accounting Officer Liability Immunization Banner -->
+<div class="bg-surface-container-high/60 p-space-sm rounded flex flex-col sm:flex-row items-center justify-between gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-xl">shield_locked</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary font-semibold">DG & CIO STATUTORY IMMUNITY ACTIVE</span>
+<span class="font-body-sm text-body-sm text-outline">Audit opinion verified by Auditor-General South Africa standards module.</span>
+</div>
+</div>
+<div class="text-right">
+<span class="px-2 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold">ZERO FINDINGS</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Parliamentary Portfolio Committee Visual Simulation Floor -->
+<div class="bg-surface-container-low p-space-md rounded-lg shadow-md space-y-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-lg">meeting_room</span>
+<h2 class="font-headline-md text-headline-md text-primary">Parliamentary Hearing Attestation Feed</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live telemetry presented before the Portfolio Committee on Communications and Digital Technologies.</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+<span class="font-label-sm text-label-sm text-secondary font-mono">PARL-ROOM-V2 LIVE</span>
+</div>
+</div>
+<!-- 3 Simulated Hearing Scenarios -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Hearing Card 1 -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col justify-between space-y-space-sm">
+<div class="space-y-1">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">PORTFOLIO CHAIR INQUIRY</span>
+<span class="text-secondary font-medium">DEFENDED</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-primary text-base">Offshore Data Routing Query</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            “Does any classified RSA citizen telemetry route through non-domestic hyper-scaler hubs without ministerial exemption?”
+          </p>
+</div>
+<div class="p-2 rounded bg-surface-container-high/40 text-label-sm font-label-sm text-secondary flex items-center justify-between">
+<span>SITA Std 1183 Attested:</span>
+<span class="font-bold">100% AIR-GAPPED RSA</span>
+</div>
+</div>
+<!-- Hearing Card 2 -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col justify-between space-y-space-sm">
+<div class="space-y-1">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">INFORMATION REGULATOR</span>
+<span class="text-primary font-medium">COMPLIANT</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-primary text-base">Sec 19 Breach Notification Protocol</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            “Produce cryptographic verification of immediate Section 22 incident notification readiness within 72-hour window.”
+          </p>
+</div>
+<div class="p-2 rounded bg-surface-container-high/40 text-label-sm font-label-sm text-primary flex items-center justify-between">
+<span>Telemetry Dispatch Latency:</span>
+<span class="font-bold">0.42 SEC (INSTANT)</span>
+</div>
+</div>
+<!-- Hearing Card 3 -->
+<div class="bg-surface-container-lowest p-space-sm rounded-lg flex flex-col justify-between space-y-space-sm">
+<div class="space-y-1">
+<div class="flex items-center justify-between text-label-sm font-label-sm">
+<span class="text-outline">SCOPA / PFMA OVERSIGHT</span>
+<span class="text-tertiary-fixed font-medium">SECURED</span>
+</div>
+<h4 class="font-headline-md text-headline-md text-primary text-base">Accounting Officer Surcharge Shield</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            “Confirm zero wasteful or irregular expenditure in procuring sovereign cloud safeguards under SITA RFQ 4910.”
+          </p>
+</div>
+<div class="p-2 rounded bg-surface-container-high/40 text-label-sm font-label-sm text-tertiary-fixed flex items-center justify-between">
+<span>B-BBEE L1 Recognition:</span>
+<span class="font-bold">135% LEVEL 1 AUDITED</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Feedback Toast Container (Fixed bottom right within screen) -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-32 opacity-0 transition-all duration-300 pointer-events-none" id="toastNotification">
+<div class="bg-surface-container-highest text-on-surface px-4 py-3 rounded-lg shadow-2xl flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-xl" id="toastIcon">check_circle</span>
+<div>
+<div class="font-label-sm text-label-sm font-bold text-primary uppercase" id="toastTitle">ACTION COMPLETE</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant" id="toastMessage">Cryptographic evidence signed & timestamped.</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Interactive Logic for AGSA Parliamentary Audit HUD
+  function showToast(title, message, isError = false) {
+    const toast = document.getElementById('toastNotification');
+    const toastTitle = document.getElementById('toastTitle');
+    const toastMsg = document.getElementById('toastMessage');
+    const toastIcon = document.getElementById('toastIcon');
+
+    toastTitle.innerText = title;
+    toastMsg.innerText = message;
+    
+    if (isError) {
+      toastIcon.innerText = 'error';
+      toastIcon.className = 'material-symbols-outlined text-error text-xl';
+    } else {
+      toastIcon.innerText = 'verified';
+      toastIcon.className = 'material-symbols-outlined text-secondary text-xl';
+    }
+
+    toast.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 3800);
+  }
+
+  function copyHash(text) {
+    navigator.clipboard?.writeText ? navigator.clipboard.writeText(text) : null;
+    showToast('HASH COPIED', `Copied statutory proof string: ${text}`);
+  }
+
+  // Merkle verification interactivity
+  const hashInput = document.getElementById('hashInput');
+  const btnVerify = document.getElementById('btnVerifyHash');
+  const btnReset = document.getElementById('btnResetHash');
+  const btnPasteSample = document.getElementById('btnPasteSample');
+  const merkleStatusText = document.getElementById('merkleStatusText');
+  const rootHashDisplay = document.getElementById('rootHashDisplay');
+  const timestampDisplay = document.getElementById('timestampDisplay');
+  const statutoryProgress = document.getElementById('statutoryProgress');
+
+  btnPasteSample.addEventListener('click', () => {
+    hashInput.value = '0x8b19ff42cde101183fe7a8291038bafc09938d21';
+    showToast('SAMPLE LOADED', 'SITA RFQ 4910 Top-Secret Certificate Hash inserted.');
+  });
+
+  btnReset.addEventListener('click', () => {
+    hashInput.value = '';
+    merkleStatusText.innerText = 'AWAITING HASH INPUT';
+    merkleStatusText.className = 'text-outline font-semibold';
+    rootHashDisplay.innerText = '0x00000...PENDING';
+    statutoryProgress.style.width = '0%';
+    showToast('VERIFIER RESET', 'Paste or generate a proof hash to continue.');
+  });
+
+  btnVerify.addEventListener('click', () => {
+    const val = hashInput.value.trim();
+    if (!val) {
+      showToast('EMPTY INPUT', 'Please provide a valid cryptographic hash.', true);
+      return;
+    }
+
+    merkleStatusText.innerText = 'VERIFYING WITH AGSA LEDGER...';
+    merkleStatusText.className = 'text-primary-container font-semibold animate-pulse';
+    statutoryProgress.style.width = '45%';
+
+    setTimeout(() => {
+      merkleStatusText.innerText = 'ATTESTED & CLEAN (100% UNQUALIFIED)';
+      merkleStatusText.className = 'text-secondary font-semibold';
+      rootHashDisplay.innerText = '0x992B1...F1083E4 [CONFIRMED]';
+      const now = new Date();
+      timestampDisplay.innerText = now.toISOString().replace('T', ' ').substring(0, 19) + ' SAST';
+      statutoryProgress.style.width = '100%';
+      showToast('CRYPTOGRAPHIC AUDIT PASSED', 'Merkle node verified against SITA Standard 1183 ledger.');
+    }, 700);
+  });
+
+  // Action Buttons
+  document.getElementById('btnDownloadDossier').addEventListener('click', () => {
+    showToast('DOSSIER GENERATED', 'AGSA Parliamentary Audit Pack compiled (PDF / Cryptographic JSON).');
+  });
+
+  document.getElementById('btnSignAttestation').addEventListener('click', () => {
+    showToast('STATUTORY SIGNATURE APPLIED', 'Attested with RSA PKI Defense Root Key & B-BBEE L1 Token.');
+  });
+
+  document.getElementById('btnNotifyRegulator').addEventListener('click', () => {
+    showToast('INFORMATION REGULATOR DISPATCHED', 'POPIA Form 1 dispatched to Advocate Pansy Tlakula oversight desk.');
+  });
+</script></main></div></body></html>
